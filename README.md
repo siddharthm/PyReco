@@ -8,5 +8,5 @@ movie has to be recommended and some other person to act as a weight for
 the rating of other person to predict the possible rating of that movie
 for the person. It then takes the weighted sum average over all such
 other persons to get the expected rating for a movie. This is done for 
-all non rated movies and then the expected ratings are sorted in descending
-order and returned as recommendations.
+all non rated movies of the person and then the expected ratings are 
+sorted in descending order and returned as recommendations.
