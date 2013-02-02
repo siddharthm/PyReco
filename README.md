@@ -1,7 +1,7 @@
 PyReco is a simple recommendation engine written in python 2.7 that 
 given a list of people and their ratings corresponding to some movies
-can return recommendation of movies for a person and also movies that 
-are similar to a given movie and people that are similar to a given 
+can return recommendation of movies for a person. It can also give movies
+that are similar to a given movie and people that are similar to a given 
 person.
 	It makes use of similarity ratings between the person for whom
 movie has to be recommended and some other person to act as a weight for 
