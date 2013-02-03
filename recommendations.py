@@ -62,6 +62,8 @@ def getRecommendations(pref,person,similarity=sim_pearson):
 	rankings.sort()
 	rankings.reverse()
 	return rankings
+
+# A function that transforms the mapping from a,b-c to b,a-c
 def transform(mat):
 	result={}
 	for person in mat:
@@ -92,10 +94,10 @@ critics={'Lisa Rose': {'Lady in the Water': 2.5, 'Snakes on a Plane': 3.5,
 'The Night Listener': 3.0, 'Superman Returns': 5.0, 'You, Me and Dupree': 3.5},
 'Toby': {'Snakes on a Plane':4.5,'You, Me and Dupree':1.0,'Superman Returns':4.0}}
 
-print "Top 5 movies recommended for Toby using Pearson metric and euclidian metric"
-print getRecommendations(critics,'Toby')
-print getRecommendations(critics,'Toby',sim_distance)
-print "Top 5 movies similar to Superman Returns using Pearson and euclidian metric "
-movies=transform(critics)
-print topMatches(movies,'Superman Returns',5)
-print topMatches(movies,'Superman Returns',5,sim_distance)
+# print "Top 5 movies recommended for Toby using Pearson metric and euclidian metric"
+# print getRecommendations(critics,'Toby')
+# print getRecommendations(critics,'Toby',sim_distance)
+# print "Top 5 movies similar to Superman Returns using Pearson and euclidian metric "
+# movies=transform(critics)
+# print topMatches(movies,'Superman Returns',5)
+# print topMatches(movies,'Superman Returns',5,sim_distance)
