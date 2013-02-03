@@ -10,3 +10,6 @@ for the person. It then takes the weighted sum average over all such
 other persons to get the expected rating for a movie. This is done for 
 all non rated movies of the person and then the expected ratings are 
 sorted in descending order and returned as recommendations.
+
+Deployed it on pythonanywhere
+Can see the recommendations for Toby at http://siddharth.pythonanywhere.com/reco/
