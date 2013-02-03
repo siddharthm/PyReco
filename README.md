@@ -12,8 +12,10 @@ other persons to get the expected rating for a item. This is done for
 all non rated movies of the person and then the expected ratings are 
 sorted in descending order and returned as recommendations.
 
-Deployed it on pythonanywhere
+It also has functions for item based collabrative filtering provided
+in the file itembased.py
 
+Deployed it on pythonanywhere
     Can see e.g of recommendations for Toby at http://siddharth.pythonanywhere.com/reco/
 
 Update: Added support for retriving data from delicious in deliciousrec.py
