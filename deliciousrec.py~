@@ -24,6 +24,7 @@ def fillItems(user_dict):
 			except:
 				print "Failed for user "+ user + " Retrying..."
 				time.sleep(4)
+				posts=1
 		if posts != {}:
 			for post in posts:
 				url=post['url']

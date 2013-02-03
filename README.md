@@ -15,3 +15,8 @@ sorted in descending order and returned as recommendations.
 Deployed it on pythonanywhere
 
 Can see the recommendations for Toby at http://siddharth.pythonanywhere.com/reco/
+
+Update: Added support for retriving data from delicious in deliciousrec.py
+although it is slow due to delicious API limitations. You must install
+pydelicious first which is a python script providing functions to retrive
+data from delicious
